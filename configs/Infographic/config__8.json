@@ -1,0 +1,221 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 32.07344333794661,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "6522073814386156-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "6522073814386156-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 33.33333333333333,
+            "content": [
+              {
+                "id": "6522073814386156-2",
+                "type": "component",
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "6522073814386156-2"
+                },
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "jimu grid"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 34.59322332872009,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "6522073814386156-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "6522073814386156-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "6522073814386156-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "TÍTULO DE LA INFOGRAFÍA"
+      }
+    },
+    {
+      "id": "6522073814386156-2",
+      "type": "gauge",
+      "visible": true,
+      "config": {
+        "shape": "curved",
+        "statistics": [
+          {
+            "type": "value",
+            "config": {
+              "type": "stat",
+              "value": {
+                "type": "count"
+              }
+            }
+          },
+          {
+            "type": "range",
+            "name": "range1",
+            "config": {
+              "type": "fixed",
+              "value": 0
+            }
+          },
+          {
+            "type": "range",
+            "name": "range2",
+            "config": {
+              "type": "fixed",
+              "value": 1000
+            }
+          }
+        ],
+        "indicators": [
+          {
+            "value": [
+              500
+            ],
+            "operator": "greater",
+            "isRatio": false,
+            "valueColor": "#808080",
+            "gaugeColor": "#ff4500",
+            "uniqueID": "17371383256271078"
+          }
+        ],
+        "display": {
+          "backgroundColor": "#ffffff",
+          "gaugeColor": "#49b4cb",
+          "bgColor": "#e5e5e5",
+          "dataLabels": {
+            "state": true,
+            "textColor": "#000001",
+            "dataRange": true,
+            "targetValue": true,
+            "dataFormat": {
+              "digitSeparator": true
+            }
+          },
+          "currentValue": {
+            "state": true,
+            "isRatio": false,
+            "font": {
+              "font": {
+                "fontFamily": "Arial",
+                "bold": false,
+                "italic": false,
+                "underline": false
+              },
+              "fontSize": "24",
+              "textColor": "#59bad8"
+            },
+            "dataFormat": {
+              "unit": "none",
+              "decimalPlaces": "",
+              "digitSeparator": true,
+              "prefix": "",
+              "suffix": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "6522073814386156-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Descripción: información adicional sobre esta infografía."
+      }
+    }
+  ],
+  "name": "gauge",
+  "wid": "6522073814386156",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Red_Abastecimiento - Depósitos",
+    "layerId": "Red_Abastecimiento_4277",
+    "useSelection": true,
+    "filterByExtent": false
+  }
+}
